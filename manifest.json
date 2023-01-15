@@ -1,7 +1,7 @@
 {
     "name": "Close It All",
-    "description": "Automatically close Zoom, Slack, and Bluejeans windows",
-    "version": "1.0.0",
+    "description": "Automatically close Zoom, Slack, and Figma and tabs.",
+    "version": "1.0.1",
     "manifest_version": 3,
     "icons": {
         "16": "assets/icon-16.png",
@@ -36,7 +36,8 @@
                 "*://*.slack.com/huddle/*",
                 "*://*.slack-gov.com/huddle/*",
                 "*://*.slack.com/team/*",
-                "*://*.slack-gov.com/team/*"
+                "*://*.slack-gov.com/team/*",
+                "*://*.figma.com/file/*"
             ],
             "js": [
                 "content.js"
